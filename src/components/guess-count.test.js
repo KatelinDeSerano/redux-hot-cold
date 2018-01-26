@@ -8,3 +8,4 @@ describe('<GuessCount />', () => {
         shallow(<GuessCount />);
     });
 });
+

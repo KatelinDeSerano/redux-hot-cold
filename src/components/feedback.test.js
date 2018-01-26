@@ -8,3 +8,4 @@ describe('<Feedback />', () => {
         shallow(<Feedback />);
     });
 });
+

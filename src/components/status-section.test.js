@@ -1,10 +1,10 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
-import {StatusSection} from './status-section';
+import StatusSection from './status-section';
 
 describe('<StatusSection />', () => {
-    it('Renders without crashing', () => {
-        shallow(<StatusSection />)
-    });
+  it('Renders without crashing', () => {
+    shallow(<StatusSection auralStatus="" guesses={[]} />);
+  });
 });

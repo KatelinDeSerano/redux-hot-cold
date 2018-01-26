@@ -1,10 +1,10 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
-import {GuessList} from './guess-list';
+import { GuessList } from './guess-list';
 
 describe('<GuessList />', () => {
-    it('Renders without crashing', () => {
-        shallow(<GuessList />);
-    });
+  it('Renders without crashing', () => {
+    shallow(<GuessList guesses={[]} />);
+  });
 });

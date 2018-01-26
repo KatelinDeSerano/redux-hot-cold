@@ -8,3 +8,4 @@ describe('<AuralStatus />', () => {
         shallow(<AuralStatus />);
     });
 });
+
